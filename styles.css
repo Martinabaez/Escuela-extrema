@@ -1,0 +1,1038 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap"); 
+
+*{
+ padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header{
+    background:rgba(35, 110, 97, 0.138);
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+ }
+
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+
+.login-icon {
+margin-left:15px;
+margin-top:-4px;
+}
+/*navbar */
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.navbar li{
+    font-weight: 600;
+}
+.navbar li:hover > a{
+    color: #ffffff;
+    font-weight: 600;
+    transition: all .3s;
+}
+.navbar i{
+    font-size: 25px;
+    display: none;
+}
+.navbar-link{
+    text-decoration: none;
+    font-weight: 300px;
+    color: #000000;
+}
+.navbar{
+    display: flex;
+}
+
+#toggle-menu{
+    display: none;
+}
+
+main{
+    background-color:rgba(35, 110, 97, 0.253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100;
+}
+
+/* hero section*/
+
+#hero{
+        display: flex;
+        width: 100vw;
+        height: 110vh;
+        background: url(./img/AM-9013.jpg);
+        background-position: top;
+        background-attachment:scroll;
+        background-size: cover;
+      }
+
+
+    .hero-info{
+        justify-content: left;
+        align-items: left;
+        text-align: center;
+        margin-top: 12%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 20;
+        color: #000000;
+    }
+        
+       .hero-info h1{
+        justify-content: left;
+         font-size: 35px;
+         font-weight: 800;
+        }
+        .hero-info p{
+            font-size: 25px;
+            padding-top: 5px;
+        }
+        
+       .info-p{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+            padding-top: 20px;
+            font-size: 20px;
+           
+        }
+
+        /* video */
+    .video {
+        margin-top:90px;
+        width:600px;
+        height:420px;
+       margin-bottom: 8%;
+    }
+
+ /* about section*/
+ #about{
+    display: flex;
+ }
+
+.about-info{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+        display: flex;
+        flex-direction: column;
+}
+.about-info h2{
+    width: 100%;
+    margin: 30px auto;
+    font-size: 35px;
+    color:#000000;
+}
+
+.about-info p{
+    font-weight: 600;
+  text-align:justify;
+   font-size: 18px;
+   width: 55%;
+
+}
+
+/* Galería */
+
+.photo{
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+}
+
+.photo .gallery img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+border-radius: 5px;
+}
+
+.photo .gallery{
+    justify-content: center;
+    margin: 15% ;
+    max-width:750px;
+    display:grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    grid-gap:1rem;
+}
+
+.photo .gallery .img-a {
+grid-column: 1/3;
+}
+.photo .gallery .img-b {
+grid-column: 1/3;
+
+}
+.photo .gallery .img-c {
+grid-column: 1/3;
+
+}
+.photo .gallery .img-d {
+grid-column: 1/3;
+
+}
+
+.photo .gallery .img-e {
+grid-column: 1/3;
+}
+
+.photo .gallery .img-f {
+grid-column: 1/3;
+}
+
+.photo .gallery .img-g {
+ grid-column: 1/3;
+    }
+
+.photo .gallery .img-H {
+        grid-column: 1/3;
+  }
+
+
+/* cards */
+ #info{
+   padding: 70px 0;
+   max-width: 1200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap:80px;
+        
+        }
+        #info h3{
+            align-items: center;
+            font-size:25px;
+            font-weight:600px;
+            color: #000000;
+        }
+        .info-cards-container{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .info-card{
+       margin-top: -50px;
+        width: 320px;
+        height:320px;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: rgba(35, 110, 97, 0.438);
+        border-radius: 10px;
+        gap: 20px;
+        }
+        
+        .info-card h4{
+            font-weight:700px;
+            font-size: 16px;
+            color: #000000;
+        
+        }
+        .info-card li{
+            font-size: 15px;
+            color: #000000;
+        }
+
+      .Capacitaciones{
+           align-items: left;
+           display: flex;
+           flex-direction: column;
+     }
+      .Capacitaciones h4{
+         font-size:25px;
+         margin: 50px;
+         text-align: center;
+         text-decoration: underline;
+       }
+       .Capacitaciones h5{
+        margin-bottom: 5px;
+        font-size: 22px;
+       }
+       .Capacitaciones p{
+         font-size: 15px;
+         font-weight: 600;
+         margin-bottom: 40px;
+       }
+
+
+   /* contact */
+        .contenedor{
+            width: 750px;
+            max-width: 1200px;
+            padding: 40px;
+            margin: 70px;
+            background: rgba(17, 77, 43, 0.884);
+            box-shadow: 0px 1px 2px rgb(0, 0, 0, .5)
+            
+        }
+        
+        .contenedor h4{
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 25px;
+            color: #ffffff;
+            border-radius: 2px;
+        
+        }
+        
+        .contenido {
+            display: flex;
+            width: 100%;
+           overflow: hidden;
+        
+        }
+        
+        .contenido .info,
+        .contenido .formulario {
+            width: 50%;
+        
+        }
+        
+        /* estilos info */
+        .info {
+            padding-left: 10px;
+        }
+        
+        .info .col{
+        width: 100%;
+        display: flex;
+        margin-bottom: 15px;
+        font-size: 12px;
+        align-items: center;
+        flex-wrap: nowrap;
+        }
+        
+        .info .col .icono{
+            color: #ffffff;
+            margin-right: 10px;
+        }
+        .info .col p{
+            font-size: 13px;
+            color:#ffffff;
+           font-weight: 600;
+        }
+        
+        .info .redes-s{
+            width: 100%;
+            overflow: hidden;
+            padding-left: 25px;
+            display: flex;
+            flex-wrap:wrap;
+        }
+        
+        .info .redes-s a{
+            display: flex;
+            width: 40px;
+            height: 40px;
+            color: #ffffff;
+            background: rgba(21, 190, 176, 0.459);
+            margin: 5px;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            border-radius: 50%;
+            box-shadow: 0px 3px 8px rgb(0, 0, 0, .4);
+        }
+        
+        .info .redes-s a:hover{
+            box-shadow: 0px 3px 8px rgba(0, 0, 0 .4);
+        }
+        
+        /* Estilos formulario */
+        .formulario{
+            padding-left: 10px;
+        
+        }
+        
+        .formulario input,
+        .formulario textarea{
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 12px 20px;
+        border: 1px solid #17c49e;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        outline: 0;
+        
+        }
+        
+        .formulario textarea{
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 150px;
+            max-height: 200px;
+        }
+        
+        .formulario button {
+            background: rgba(21, 190, 176, 0.459);
+            color: #000000;
+            width: 120px;
+            padding: 8px;
+            border:transparent;
+            font-size: 14px;
+            cursor: pointer;
+            float: right;
+        }
+        /* footer */
+        footer{
+        background:  #05816298;
+        color: #F8F8FF;
+        display: flex;
+        justify-content: column;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 30px;
+        }
+       
+        
+ /* responsive */
+
+ @media (max-width:992px){
+    /* tablet*/
+    
+    #hero{
+        width: 100vw;
+        height: 90vh;
+      }
+        
+      .hero-info{
+        margin-top: 15%;
+    }
+       .hero-info h1{
+         font-size: 25px;
+        }
+        .hero-info p{
+            margin-top: 10px;
+            font-size: 15px;
+        }
+       .info-p{
+            font-size: 15px;
+           
+        }
+
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+   .navbar  a  {
+      font-size: 12px;
+}
+
+ 
+.about-info h2{
+    font-size: 25px;
+}
+.about-info p{
+   font-size: 15px;
+   width: 70%;
+}
+
+/* Galeria */
+
+.photo .gallery{
+    justify-content: center;
+    max-width:675px;
+    grid-template-columns: 225px 225px 225px;
+    grid-template-rows: 225px 225px 225px;
+}
+
+.info-card{
+    width: 300px;
+    height:280px;
+    }
+
+    .info-card h4{
+       margin-top: -15px;
+       font-weight:700px;
+       font-size: 15px;
+   }
+
+   .info-card li{
+       font-size:13px;
+   }
+   /* contact */
+ .contenedor{
+    width:550px;
+ }
+.formulario textarea,
+.formulario input{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 30px;
+    max-height: 50px;
+    margin-bottom:10px;
+    padding: 12px -20px;
+    margin-left: 40px;
+    font-size: 10px;
+}
+.info .col p{
+    font-size: 11px;
+}
+.info .col{
+    margin-bottom: 15px;
+    margin-left:-10px ;
+    }
+
+.info .redes-s{
+    padding-left: 15px;
+}
+
+.info .redes-s a{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.formulario button {
+    width: 90px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+ /* footer */
+ footer{
+  font-size: 14px;
+  padding: 20px;
+}
+
+
+ }
+
+@media (max-width:768px){
+    /* Medium */
+   .header {
+    height: 60px;
+   }
+    .navbar ul{
+        background: #F8F8FF;
+        width: 100%;
+        position: absolute;
+        padding: 50px;
+        gap: 60px;
+        top: 60px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+        display: flex;
+        /* display none*/
+        transform: translate(100%);
+        transition: all 0.4s  ease-out;
+    }
+    .navbar i{
+        display: block;
+    }
+   
+    .navbar-list a{
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+         font-weight: 800;
+       } 
+   
+   
+       .navbar li:hover > a{
+           color: #05816298;
+           font-weight: 800;
+           transition: all .3s;
+       }
+
+       #toggle-menu:checked ~ .navbar-list {
+     transform: translate(0%);
+     transition: all 0.3s  ease-in;
+       }
+
+    .video {
+        width:500px;
+        height:320px;
+    }
+    /* hero y about section */
+    #hero{
+        width: 100vw;
+        height: 75vh;
+      }
+      .hero-info{
+        margin-top: 18%;
+    }
+        
+       .hero-info h1{
+         font-size: 15px;
+        }
+        .info-p{
+         font-size:12px ;
+        }
+        .hero-info p{
+            font-size: 12px;
+           }
+    /* About */
+           .about-info h2{
+            font-size: 20px;
+        }
+        
+        .about-info p{
+            font-size: 12px;
+            width: 70%;
+        }
+
+    /* Galería */
+    .photo .gallery{
+        max-width:450px;
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px;
+    }
+
+    
+    .info-card{
+         width: 250px;
+         height:260px;
+         }
+
+         .info-card h4{
+            margin-top: -13px;
+            font-weight:700px;
+            font-size: 13px;
+        }
+        .info-card li{
+            font-weight:400;
+            font-size: 11px;
+        }
+
+    .Capacitaciones h4{
+      font-size:22px;
+    }
+    .Capacitaciones h5{
+     font-size: 20px;
+    }
+    .Capacitaciones p{
+      font-size: 12px;
+    }
+
+
+  /* contact */
+ .contenedor{
+    width:400px;
+    margin: 30px;
+    padding:20px;
+ }
+ .contenedor h4{
+    font-size: 20px;
+ }
+
+.formulario textarea,
+.formulario input{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 10px;
+    max-height: 30px;
+    margin-bottom:10px;
+    padding: 12px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.info .col p{
+    font-size: 10px;
+}
+.info .col{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 9px;
+    align-items: center;
+    flex-wrap: nowrap;
+    }
+
+.info .redes-s a{
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}
+.formulario button {
+    width: 42px;
+    font-size: 8px;
+}
+
+ /* footer */
+ footer{
+    font-size: 12px;
+    padding:15px;
+    
+  }
+  
+}
+
+@media (max-width:576px){
+    .header{
+        height: 50px;
+     }
+    .navbar ul{
+        background:rgb(255, 255, 255);
+        width:100%;
+        padding: 50px;
+        left: 0;
+        position:absolute;
+        flex-direction: column;
+        align-items:center;
+        justify-content: right ;
+        gap:40px;
+        top:50px;
+        display:flex;
+        /* display none*/
+        transform: translate(200%);
+        transition: all 0.3s  ease-out;
+    }
+
+    .login-icon {
+        margin-top: 0;
+        width: 25px;
+        height: 25px;
+        }
+
+    .navbar-list a{
+     font-size: 12px;
+    } 
+
+
+    .navbar li:hover > a{
+        transition: all .3s;
+    }
+    
+    .navbar i{
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list {
+  transform: translate(0%);
+  transition: all 0.3s  ease-in;
+    }
+    
+    #hero{
+        width: 100vw;
+        height: 55vh;
+      }
+        .hero-info{
+            margin-top: 15;
+        }
+       .hero-info h1{
+         font-size: 12px;
+        }
+        
+        .hero-info p{
+            font-size: 10px;
+        }
+        .info-p{
+            font-size:12px ;
+        }
+
+      /* video */
+      .video {
+        width:250px;
+        height:200px;
+    } 
+
+    .about-info h2{
+        font-size: 20px;
+    }
+    
+    .about-info p{
+        font-size: 12px;
+         width: 70%;
+    }
+
+    .photo .gallery{
+        display: inline;
+        max-width:450px;
+        grid-template-columns: 150px 150px 150px;
+    }
+
+/* Cards */ 
+
+#info {
+    margin-top:-20%;
+}
+#info h3{
+    margin-top: -20;
+}
+.info-card{
+     width: 200px;
+    height:230px;
+    }
+
+    .info-card h4{
+       margin-top: -15px;
+       font-weight:800px;
+       font-size: 12px;
+   }
+   .info-card li{
+       font-weight:500;
+       font-size: 9px;
+   }
+    #info h3{
+      font-size: 20px;
+    }
+   .Capacitaciones h4{
+    font-size:20px;
+  }
+  .Capacitaciones h5{
+   font-size: 18px;
+  }
+  .Capacitaciones p{
+    font-size: 10px;
+  }
+
+  /* contact */
+  .contenedor{
+     width:400px;
+     padding: 20px 10px;
+     margin: 30px;
+
+ }
+ .contenedor h4{
+    font-size: 15px;
+ }
+
+.formulario textarea,
+.formulario input{
+    margin-bottom:10px;
+    padding: 12px -20px;
+    margin-left: 20px;
+}
+.info .col p{
+    font-size:9px;
+}
+.info .col{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+
+    font-size: 9px;
+    align-items: center;
+    flex-wrap: nowrap;
+    }
+
+.info .redes-s a{
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+}
+.formulario button {
+    width: 42px;
+    font-size: 8px;
+}
+
+ /* footer */
+ footer{
+    font-size: 10px;
+    padding:15px;
+    
+  }
+  
+}
+
+@media (max-width:460px) {
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-left: -40px;
+    }
+    .navbar ul{
+        padding: 45px 30px;
+        position:absolute;
+        flex-direction: column;
+        align-items:center;
+        justify-content: right ;
+        gap:32px;
+        top:50px;
+        display:flex;
+        /* display none*/
+        transform: translate(200%);
+        transition: all 0.3s  ease-out;
+    }
+    
+    .login-icon {
+        margin-top: 0;
+        width: 20px;
+        height: 20px;
+        }
+    .navbar-list a{
+     font-size: 10px;
+    } 
+
+    .navbar li:hover > a{
+        transition: all .3s;
+    }
+    .navbar i{
+        font-size: 18px;
+        display: block;
+    }
+
+    #toggle-menu:checked ~ .navbar-list {
+  transform: translate(0%);
+  transition: all 0.3s  ease-in;
+    }
+
+    #hero{
+        width: 100vw;
+        height: 40vh;
+      }
+      .hero-info{
+        margin-top: 20%;
+    }
+       .hero-info h1{
+         font-size: 10px;
+        }
+        .hero-info p {
+            margin-top: -2px;
+            font-size: 8px;
+           }
+        
+       .info-p{
+            font-size: 10px;
+        }
+        
+    .video {
+        width:210px;
+        height:180px;
+        margin-bottom: 30%;
+    }
+    .about-info h2 {
+        font-size:16px ;
+    }
+    .about-info p{
+        font-size: 10px;
+         width: 90%;
+    }
+    
+    .photo .gallery{
+        display: inline;
+        max-width:420px;
+        grid-template-columns: 140px 140px 140px;
+    }
+
+    /* Cards */ 
+    #info {
+    padding: 40px;
+    }
+.info-card{
+    flex-direction: column;
+     width: 220px;
+    height:240px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    }
+   #info h3{
+    margin-top: 15%;
+   font-size: 10px;
+   }
+    .info-card h4{
+       font-weight:800px;
+       font-size: 12px;
+   }
+
+   .info-card li {
+     font-size: 10px;
+   }
+   #info  h3{
+    font-size:15px ;
+   }
+   .Capacitaciones{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   }
+   .Capacitaciones h4{
+    font-size:15px;
+  }
+  .Capacitaciones h5{
+   font-size: 15px;
+  }
+  
+   /* contact */
+  .contenedor{
+    max-width:230px;
+    padding: 8px 10px;
+
+ }
+ .contenido {
+    display:inline;
+
+}
+ .contenedor h4{
+    font-size: 12px;
+ }
+
+.formulario textarea,
+.formulario input{
+    margin-bottom:10px;
+    padding:5px 0px;
+    margin-left: 0px;
+    font-size: 8px;
+ 
+}
+.info .col p{
+    font-size:10px;
+
+}
+.info .col{
+    width: 150%;
+    margin-bottom: 10px;
+    font-size: 9px;
+    flex-wrap: nowrap;
+    }
+   
+    .info .redes-s{
+        padding: 0px;
+        flex-wrap:nowrap;
+    }
+    
+    .info .redes-s a{
+        width: 15px;
+        height: 15px;
+        margin-top: 5px;
+        font-size: 9px;
+        border-radius: 50%;
+    }
+    
+
+    
+.formulario button {
+    width: 40px;
+    font-size: 8px;
+    float: none;
+}
+/* footer */
+footer{
+    font-size: 6px;
+    padding: 10px;
+  }
+}

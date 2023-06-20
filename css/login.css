@@ -1,0 +1,132 @@
+
+.header{
+  background:rgba(241, 238, 238, 0.692);
+  height: 70px;
+
+}
+
+main{
+  background:url(../img/snowboard4.jpg);
+  background-position:center;
+  background-attachment:fixed;
+  background-size:cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.navbar__logo {
+  width: 250px;
+  height: 250px;
+  margin-left: -40px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+  }
+  
+  .form__title {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  /* register */
+  .btn-user h2{
+    font-size: 16px;
+    margin-top: -40%;
+   background: #ffffff;
+    border-radius: 10px;
+  }
+ .btn-user a {
+  color: black;
+ text-decoration: underline;
+ }
+/* */
+
+/* login*/ 
+  .btn-register h2 {
+    color:#000000; 
+    font-size: 16px;
+    margin-top: -50%;
+    border-radius: 8px;
+  background-color: #ffffff;
+  }
+  .btn-register a {
+    text-decoration: underline;
+    color: #000000;
+  }
+/* */
+  .form__input {
+    padding: 15px 35px 15px 15px;
+    border-radius: 8px;
+    background-color: #000000d3;
+    color: #ffffff;
+    outline: none;
+    border: none;
+  }
+
+  /* .form__submit__btn */
+  .btn--submit {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    background: #12cc9e;
+    color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+    padding: 15px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  @media (max-width:576px){
+    .navbar__logo{
+      width: 150px;
+      height: 150px;
+  }
+    .form__title {
+      font-size: 20px;
+    }
+    /* register */
+    .btn-user h2{
+      font-size: 13px;
+      margin-top: -50%;
+    }  
+  /* login*/ 
+    .btn-register h2 {
+      font-size: 13px;
+      margin-top: -60%;
+
+    }
+    .form__input {
+      font-size: 10px;
+    }
+    /* .form__submit__btn */
+  .btn--submit {
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 12px 20px;
+  }
+  }
+
+  @media (max-width:460px) {
+    main{
+      background:url(../img/snowboard.jpg);
+      background-position:center;
+      background-attachment:fixed;
+      background-size:cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
